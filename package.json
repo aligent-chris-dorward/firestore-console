@@ -1,6 +1,6 @@
 {
   "name": "firestore-console",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "An easy to use APP which interfaces Firebase Databases and React.",
   "main": ".src/main.js",
   "scripts": {
