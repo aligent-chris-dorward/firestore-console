@@ -1,9 +1,13 @@
 # Firestore Console
 
+![alt text](https://image.ibb.co/ev3DQm/icon_firestore_console_128.png "Firestore Console")
+
+
+
 https://firestore-console.firebaseapp.com/
 https://github.com/listingslab/firestore-console
 
-An easy to use interface between Firebase Databases and React. This APP can be deployed to any Firebase project and configured with the correct credentials
+An easy to use APP which interfaces Firebase Databases and React.
 
 ## Instructions
 
