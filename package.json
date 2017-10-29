@@ -1,7 +1,7 @@
 {
   "name": "firestore-console",
   "version": "0.1.0",
-  "description": "React Redux Firebase Console for Firestore",
+  "description": "An easy to use APP which interfaces Firebase Databases and React.",
   "main": ".src/main.js",
   "scripts": {
     "clean": "rimraf dist",

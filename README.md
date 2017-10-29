@@ -1,9 +1,20 @@
-# Firebase Console
+# Firestore Console
 
-[![License][license-image]][license-url]
-[![Code Style][code-style-image]][code-style-url]
+https://firestore-console.firebaseapp.com/
+https://github.com/listingslab/firestore-console
 
-## What is Shown
+An easy to use interface between Firebase Databases and React. This APP can be deployed to any Firebase project and configured with the correct credentials
+
+## Instructions
+
+Install the [Firebase CLI tools](https://firebase.google.com/docs/cli/) and log the CLI into the Firebase account which uses the email address `bntithelpdesk@gmail.com`
+
+```bash
+sudo npm install -g firebase-tools
+firebase login
+```
+
+## Features
 * Route protection using `redux-auth-wrapper`
 * Data input/validation using `redux-form`
 * Async & Sync route loading
@@ -20,11 +31,11 @@ While developing, you will probably rely mostly on `npm start`; however, there a
 
 |`npm run <script>`    |Description|
 |-------------------|-----------|
-|`start`            |Serves your app at `localhost:3000` and displays [Webpack Dashboard](https://github.com/FormidableLabs/webpack-dashboard)|
-|`start:simple`     |Serves your app at `localhost:3000` without [Webpack Dashboard](https://github.com/FormidableLabs/webpack-dashboard)|
-|`build`            |Builds the application to ./dist|
-|`lint`             |[Lints](http://stackoverflow.com/questions/8503559/what-is-linting) the project for potential errors|
-|`lint:fix`         |Lints the project and [fixes all correctable errors](http://eslint.org/docs/user-guide/command-line-interface.html#fix)|
+|`start`            |Serves your app at `localhost:3000`
+|`start:simple`     |Serves your app at `localhost:3000` without Webpack
+|`build`            |Builds the application to ./dist
+|`lint`             |
+|`lint:fix`         |
 
 [Husky](https://github.com/typicode/husky) is used to enable `prepush` hook capability. The `prepush` script currently runs `eslint`, which will keep you from pushing if there is any lint within your code. If you would like to disable this, remove the `prepush` script from the `package.json`.
 
@@ -105,8 +116,3 @@ For more options on CI settings checkout the [firebase-ci docs](https://github.c
 1. Confirm Firebase config by running locally: `firebase serve`
 1. Deploy to firebase: `firebase deploy`
 **NOTE:** You can use `firebase serve` to test how your application will work when deployed to Firebase, but make sure you run `npm run build` first.
-
-[license-image]: https://img.shields.io/npm/l/material.svg?style=flat-square
-[license-url]: https://github.com/testuser/material/blob/master/LICENSE
-[code-style-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
-[code-style-url]: http://standardjs.com/
