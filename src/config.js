@@ -31,7 +31,7 @@ export const reduxFirebase = {
   //   // create queries for profile population (remember to use populate)
   //   { child: 'cars', root: 'cars' }
   // ],
-  // useFirestoreForProfile: true, // Use Firestore to store profile
+  useFirestoreForProfile: true, // Use Firestore to store profile
   // profileParamsToPopulate: [{ child: 'cars', root: 'cars' }] // gather data for populating profile params
   // profileDecorator: (userData) => ({ email: userData.email }) // customize format of user profile
 }
