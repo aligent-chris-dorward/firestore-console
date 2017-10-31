@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-firebase-material-example",
-  "version": "0.0.1",
-  "description": "Complete react-redux-firebase Material-UI app.",
+  "name": "firestore-console",
+  "version": "0.0.3",
+  "description": "Easy to use React APP which interfaces Firebase Databases and React.",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
@@ -16,9 +16,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/testuser/material.git"
+    "url": "https://github.com/listingslab/firestore-console"
   },
-  "author": "testuser (https://github.com/testuser)",
+  "author": "Chris Dorward (https://github.com/listingslab)",
   "license": "MIT",
   "dependencies": {
     "firebase": "^4.5.2",

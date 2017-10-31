@@ -1,13 +1,10 @@
-# Firestore Console
-
 ![alt text](https://image.ibb.co/ev3DQm/icon_firestore_console_128.png "Firestore Console")
 
-https://firestore-console.firebaseapp.com  
-https://github.com/listingslab/firestore-console
+## Firestore Console
 
-An easy to use APP which interfaces Firebase Databases and React.
+[firestore-console.com](https://firestore-console.com/). __An easy to use APP which interfaces Firebase Databases and React.__
 
-## Instructions
+### Instructions
 
 Install the [Firebase CLI tools](https://firebase.google.com/docs/cli/) and log the CLI into the Firebase account which uses the email address `bntithelpdesk@gmail.com`
 
@@ -16,14 +13,14 @@ sudo npm install -g firebase-tools
 firebase login
 ```
 
-## Features
+### Features
 * Route protection using `redux-auth-wrapper`
 * Data input/validation using `redux-form`
 * Async & Sync route loading
 * Real CI and Deployment settings (including `prod` and `stage` environments)
 * Using different instances of Firebase based on environment
 
-## Getting Started
+### Getting Started
 
 1. Install dependencies: `npm install`
 
@@ -41,7 +38,7 @@ While developing, you will probably rely mostly on `npm start`; however, there a
 
 [Husky](https://github.com/typicode/husky) is used to enable `prepush` hook capability. The `prepush` script currently runs `eslint`, which will keep you from pushing if there is any lint within your code. If you would like to disable this, remove the `prepush` script from the `package.json`.
 
-## Application Structure
+### Application Structure
 
 The application structure presented in this boilerplate is **fractal**, where functionality is grouped primarily by feature rather than file type. Please note, however, that this structure is only meant to serve as a guide, it is by no means prescriptive. That said, it aims to represent generally accepted guidelines and patterns for building scalable applications. If you wish to read more about this pattern, please check out this [awesome writeup](https://github.com/davezuko/react-redux-starter-kit/wiki/Fractal-Project-Structure) by [Justin Greenberg](https://github.com/justingreenberg).
 
@@ -79,17 +76,17 @@ The application structure presented in this boilerplate is **fractal**, where fu
 └── tests                    # Unit tests
 ```
 
-### Routing
+#### Routing
 We use `react-router` [route definitions](https://github.com/ReactTraining/react-router/blob/v3/docs/API.md#plainroute) (`<route>/index.js`) to define units of logic within our application. See the [application structure](#application-structure) section for more information.
 
-## Testing
+### Testing
 To add a unit test, create a `.spec.js` file anywhere inside of `./tests`. Karma and webpack will automatically find these files, and Mocha and Chai will be available within your test without the need to import them.
 
-## Production
+### Production
 
 Build code before deployment by running `npm run build`. There are multiple options below for types of deployment, if you are unsure, checkout the Firebase section.
 
-### Deployment
+#### Deployment
 
 1. Login to [Firebase](firebase.google.com) (or Signup if you don't have an account) and create a new project
 2. Install cli: `npm i -g firebase-tools`
