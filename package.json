@@ -14,6 +14,7 @@
     "lint:fix": "npm run lint -- --fix",
     "format": "prettier --single-quote --no-semi --trailing-comma none --write \"src/**/*.js\""
   },
+  "license": "OSL-3.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/listingslab/firestore-console"
@@ -95,5 +96,11 @@
     "webpack-dev-middleware": "^1.11.0",
     "webpack-hot-middleware": "^2.13.2",
     "yargs": "^8.0.1"
-  }
+  },
+  "keywords": [
+    "React",
+    "Firebase",
+    "Firestore",
+    "JavaScript"
+  ]
 }
