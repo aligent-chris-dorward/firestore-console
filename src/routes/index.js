@@ -1,6 +1,17 @@
+/**
+ * Firestore Console
+ *
+ * @category    listingslab
+ * @package     firestore-console
+ * @repo        https://github.com/listingslab/firestore-console
+ * @author      Chris Dorward <listingslab@gmail.com>
+ * @license     OSL-3.0
+ *
+ */
+
 // We only need to import the modules necessary for initial render
 import CoreLayout from '../layouts/CoreLayout'
-import Home from './Home'
+import Dashboard from './Dashboard'
 import LoginRoute from './Login'
 import SignupRoute from './Signup'
 import ProjectsRoute from './Projects'
@@ -14,7 +25,7 @@ import NotFoundRoute from './NotFound'
 export const createRoutes = store => ({
   path: '/',
   component: CoreLayout,
-  indexRoute: Home,
+  indexRoute: Dashboard,
   childRoutes: [
     AccountRoute,
     LoginRoute,
