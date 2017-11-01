@@ -1,3 +1,14 @@
+/**
+ * Firestore Console
+ *
+ * @category    listingslab
+ * @package     firestore-console
+ * @repo        https://github.com/listingslab/firestore-console
+ * @author      Chris Dorward <listingslab@gmail.com>
+ * @license     OSL-3.0
+ *
+ */
+
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'react-router'
@@ -107,7 +118,10 @@ export default class Navbar extends Component {
       <AppBar
         title={
           <Link to={authExists ? LIST_PATH : '/'} className={classes.brand}>
-            material
+            <img
+              alt="Firestore Console Logo"
+              src="/icons/icon-72x72.png"/>
+            Firestore Console
           </Link>
         }
         showMenuIconButton={false}

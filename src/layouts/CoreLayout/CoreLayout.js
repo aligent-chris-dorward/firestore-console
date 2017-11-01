@@ -1,3 +1,14 @@
+/**
+ * Firestore Console
+ *
+ * @category    listingslab
+ * @package     firestore-console
+ * @repo        https://github.com/listingslab/firestore-console
+ * @author      Chris Dorward <listingslab@gmail.com>
+ * @license     OSL-3.0
+ *
+ */
+
 import React from 'react'
 import PropTypes from 'prop-types'
 import Navbar from 'containers/Navbar'
@@ -7,7 +18,8 @@ import 'styles/core.scss'
 export const CoreLayout = ({ children }) => (
   <div className={classes.container}>
     <Navbar />
-    <div className={classes.children}>{children}</div>
+    <div>ok</div>
+
   </div>
 )
 
