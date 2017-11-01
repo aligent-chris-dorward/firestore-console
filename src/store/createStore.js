@@ -1,3 +1,14 @@
+/**
+ * Firestore Console
+ *
+ * @category    listingslab
+ * @package     firestore-console
+ * @repo        https://github.com/listingslab/firestore-console
+ * @author      Chris Dorward <listingslab@gmail.com>
+ * @license     OSL-3.0
+ *
+ */
+
 import { applyMiddleware, compose, createStore } from 'redux'
 import thunk from 'redux-thunk'
 import { browserHistory } from 'react-router'

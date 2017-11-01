@@ -1,3 +1,14 @@
+/**
+ * Firestore Console
+ *
+ * @category    listingslab
+ * @package     firestore-console
+ * @repo        https://github.com/listingslab/firestore-console
+ * @author      Chris Dorward <listingslab@gmail.com>
+ * @license     OSL-3.0
+ *
+ */
+
 export const LIST_PATH = '/projects'
 export const DETAIL_PATH = ':projectname'
 export const ACCOUNT_PATH = '/account'

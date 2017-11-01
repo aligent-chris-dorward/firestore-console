@@ -1,3 +1,14 @@
+/**
+ * Firestore Console
+ *
+ * @category    listingslab
+ * @package     firestore-console
+ * @repo        https://github.com/listingslab/firestore-console
+ * @author      Chris Dorward <listingslab@gmail.com>
+ * @license     OSL-3.0
+ *
+ */
+
 import { UserAuthWrapper } from 'redux-auth-wrapper'
 import { browserHistory } from 'react-router'
 import { LIST_PATH } from 'constants'
