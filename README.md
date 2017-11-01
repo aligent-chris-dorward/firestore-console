@@ -2,7 +2,7 @@
 
 ## Firestore Console
 
-[firestore-console.com](https://firestore-console.com/). __An easy to use APP which interfaces Firebase Databases and React.__
+[firestore-console.com](https://firestore-console.com/). __Easy to use React APP which interfaces Firebase Databases and React.__
 
 ### Instructions
 
